@@ -1,4 +1,4 @@
-# Ansible Collection - community.nutanix
+# Ansible Collection - grdavies.nutanix
 
 This repo hosts the `grdavies.nutanix` Ansible collection.
 
@@ -24,7 +24,7 @@ You can also include it in a `requirements.yml` file and install it via `ansible
 
 ```yaml
 collections:
-- name: community.nutanix
+- name: grdavies.nutanix
 ```
 
 ### Required Python libraries
@@ -32,6 +32,13 @@ collections:
 Nutanix community collection depends upon following third party libraries:
 
 * [`ntnx-api`](https://gitlab.com/nutanix-se/python/nutanix-api-library) >= 1.1.30
+
+### Installing required SDK
+
+Installing the collection does not install any required third party Python libraries or SDKs. You need to install the required Python libraries using following command:
+
+    pip install -r ~/.ansible/collections/ansible_collections/grdavies/nutanix/requirements.txt
+
 
 ## Included content
 
