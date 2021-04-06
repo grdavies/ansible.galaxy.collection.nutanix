@@ -1,0 +1,20 @@
+plugins:
+  become: {}
+  cache: {}
+  callback: {}
+  cliconf: {}
+  connection: {}
+  httpapi: {}
+  inventory:
+    prism_inventory:
+      description: Inventory plugin to dynamically generate an inventory from provided
+        Prism Element/Central endpoints.
+      name: prism_inventory
+      version_added: 0.0.1
+  lookup: {}
+  module: {}
+  netconf: {}
+  shell: {}
+  strategy: {}
+  vars: {}
+version: 0.0.1

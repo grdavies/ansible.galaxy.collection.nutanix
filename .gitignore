@@ -1,0 +1,13 @@
+.env
+.DS_Store
+
+*.retry
+.idea
+.venv
+*.log
+__pycache__/
+tmp/
+
+# Galaxy artifacts.
+*.tar.gz
+/collections
