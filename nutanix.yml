@@ -1,0 +1,10 @@
+plugin: 'community.nutanix.prism_inventory'
+connections:
+#  - ip_address: '192.168.1.7'
+#    password: 'uwpOF!1pfQEbTWHWv*kv0HGLNL&QD^4u'
+#  - ip_address: '192.168.1.44'
+#    password: 'fUUif4l0CF!iPVv2mpE6wbT9&Rf5tw'
+  - ip_address: '10.42.159.39'
+    password: 'nx2Tech159!'
+    include_vms: 'yes'
+    validate_certs: 'no'

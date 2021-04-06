@@ -1,0 +1,25 @@
+namespace: grdavies
+name: nutanix
+version: 0.0.1
+readme: README.md
+authors:
+  - Ross Davies <davies.ross@gmail.com>
+description: Modules and plugins for working with Nutanix software
+license_file: LICENSE
+tags:
+  - nutanix
+  - prism
+  - ntnx
+  - cloud
+  - infrastructure
+repository: 'https://gitlab.com/nutanix-se/ansible/community.nutanix'
+documentation: 'https://gitlab.com/nutanix-se/ansible/community.nutanix/-/blob/master/docs'
+homepage: 'https://gitlab.com/nutanix-se/ansible/community.nutanix'
+issues: https://gitlab.com/nutanix-se/ansible/community.nutanix/-/issues
+build_ignore:
+- '.idea'
+- '.env'
+- 'tmp/'
+- '*.DS_Store*'
+- '*.tar.gz'
+- 'changelogs/.plugin-cache.yaml'
